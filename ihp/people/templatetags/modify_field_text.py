@@ -12,3 +12,4 @@ def modify_field_title(form):
     new_data = form.data.copy()
     new_data[u'request_to_join_group'] = ''
     form.data = new_data
+    return ''
